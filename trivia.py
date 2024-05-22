@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# 
+
+# Refactors:
+# - Game class naar eigen file zetten zodat deze van de main functie kan worden
+# - De Game class bewaard data over spelers in parallele arrays. Die kunnen naar een Player class
+# - Mogelijk kan ook informatie over de indeling van het bord hier weg
+
 class Game:
     def __init__(self):
         self.players = []
